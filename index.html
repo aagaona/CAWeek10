@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Tracker</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div id="card-body">
+        <div class="row d-grid gap-2 col-6 mx-auto">
+            <div class="col-sm">
+                <div class="input">
+                    <label for="new-commander" class="form-label">New Commander</label>
+                    <input type="text" class="form-control" id="new-commander-name" placeholder="Enter you Commanders Name">
+                    <label for="new-commander" class="form-label">Commander Color Identity</label>
+                    <input type="text" class="form-control" id="new-commander-color" placeholder="Enter the Color Identity">
+                </div>
+            </div>
+            <button id="create-new-deck" class="btn btn-dark">Create Deck</button>
+        </div>
+    </div>
+    
+
+    <div id="deck-table">
+
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

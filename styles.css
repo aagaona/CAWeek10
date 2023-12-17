@@ -1,0 +1,13 @@
+*{
+    background-color: grey;
+    box-sizing: content-box;
+    border-color: black;
+};
+
+body {
+    background: black;
+};
+
+.card{
+    background-color: black;
+}
